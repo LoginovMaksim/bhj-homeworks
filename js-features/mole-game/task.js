@@ -12,7 +12,7 @@ for (let i=1; i < 10; i++) {
             }  
 
         } else {
-            lost.textContent = +lost.textContent + 1;
+            lost.textContent = ++lost.textContent;
 
             if (lost.textContent >= 5) {
                 alert('Вы проиграли =(');
